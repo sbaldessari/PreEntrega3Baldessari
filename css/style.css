@@ -62,6 +62,34 @@ nav {
 }
 
 /* FIN MENU PRINCIPAL */
+/*  HOME */
+.home p {
+  padding: 15px;
+  color: salmon;
+  font-size: xx-large;
+  text-align: center;
+  text-shadow: 2px 3px white;
+}
+
+.home-uno {
+  background-image: url("../img/fondoHomeBk1.jpg");
+  height: 500px;
+  background-size: cover;
+}
+
+.home-dos {
+  background-image: url("../img/fondoHomeBk2.jpg");
+  height: 500px;
+  background-size: cover;
+}
+
+.home-tres {
+  background-image: url("../img/fondoHomeBk3.jpg");
+  height: 500px;
+  background-size: cover;
+}
+
+/* FIN HOME */
 /* RRSS */
 footer {
   background-color: white;

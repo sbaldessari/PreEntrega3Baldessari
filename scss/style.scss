@@ -68,10 +68,46 @@ main {
 /* MENU PRINCIPAL */
 
 nav {
-    background-color: #85B041;
+    background-color: $color-boton;
 }
 
 /* FIN MENU PRINCIPAL */
+
+
+/*  HOME */ 
+
+.home {
+    // filter:grayscale(80%);
+    // filter: opacity(100%);
+    // filter: sepia(80%);
+    
+    p {      
+        padding: 15px;
+        color:salmon;  
+        font-size: xx-large;
+        text-align: center;
+        text-shadow: 2px 3px white;
+    }
+}
+.home-uno {
+    background-image: url("../img/fondoHomeBk1.jpg");    
+    height: 500px;
+    background-size:cover;
+}
+.home-dos {
+    background-image: url("../img/fondoHomeBk2.jpg");
+    height: 500px;
+    background-size:cover;
+}
+.home-tres {
+    background-image: url("../img/fondoHomeBk3.jpg");
+    height: 500px;
+    background-size:cover;
+}
+
+
+/* FIN HOME */
+
 
 /* RRSS */
 
@@ -147,8 +183,8 @@ footer {
 
     ul li.active {
         text-align: center;
-        background-color: #85B041;
-        border-color: #85B041;
+        background-color: $color-boton;
+        border-color: $color-boton;
     }
 }
 
@@ -187,7 +223,7 @@ footer {
     align-items: center;
     justify-content: center;
     align-content: center;
-    background: linear-gradient(#85B041, rgb(96, 96, 255));
+    background: linear-gradient($color-boton, rgb(96, 96, 255));
 
     div {
         background-color: rgb(233, 233, 252);
@@ -211,6 +247,8 @@ footer {
     .home {
         text-align: center;
     }
+
+
 
     .quienes-somos-caja {
         background-color: rgb(233, 233, 252);
